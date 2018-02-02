@@ -12,6 +12,11 @@ class Detail extends React.Component{
     return (<div>Detail Text </div>);
   }
 }
+class FiterPlaylist extends React.Component{
+  render(){
+    return (<div><input type="text" Placeholder="Search Playlist"/> </div>);
+  }
+}
 class Playlist extends React.Component{
   render(){
     return (
@@ -29,6 +34,7 @@ class App extends React.Component {
       <div>
         <Title/>
         <Detail/>
+        <FiterPlaylist/>
         <Playlist/>
         <Playlist/>
         <Playlist/>
